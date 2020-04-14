@@ -87,7 +87,7 @@ public class Doctor { // A common method to connect to the DB
 //Complete the html table
 			output += "</table>";
 		} catch (Exception e) {
-			output = "Error while reading the items...";
+			output = "Error while reading the items.....";
 			System.err.println(e.getMessage());
 		}
 		return output;
