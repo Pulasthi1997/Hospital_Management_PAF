@@ -98,7 +98,7 @@ public class Doctor { // A common method to connect to the DB
 		try {
 			Connection con = obj.connect();
 			if (con == null) {
-				return "Error while connecting to the database for updating.";
+				return "Error while connecting to the database for updating....";
 			}
 // create a prepared statement
 			String query = "UPDATE hospital_docters SET D_Name=?,D_Type=?,D_Contact_Number=?,D_Address=?,D_Email=?,Hospital_ID=? WHERE Doctor_ID=?";
